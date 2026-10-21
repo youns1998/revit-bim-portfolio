@@ -25,3 +25,10 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# .NET outputs and local verification
+**/bin/
+**/obj/
+exports/reports/
+*.user
+*.suo

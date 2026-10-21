@@ -1,0 +1,21 @@
+{
+  "Project": "2층 주택 · 점검 기능 검증용 예제",
+  "Rooms": [
+    { "Id": 101, "Number": "101", "Name": "거실", "Level": "1F", "AreaSquareMeters": 28.5, "IsPlaced": true },
+    { "Id": 102, "Number": "102", "Name": "주방", "Level": "1F", "AreaSquareMeters": 0, "IsPlaced": true },
+    { "Id": 103, "Number": "201", "Name": "침실", "Level": "2F", "AreaSquareMeters": 15.2, "IsPlaced": true },
+    { "Id": 104, "Number": "201", "Name": "미배치 실", "Level": "", "AreaSquareMeters": 0, "IsPlaced": false }
+  ],
+  "Components": [
+    { "Id": 201, "Category": "문", "Mark": "D01", "Name": "현관문", "Level": "1F" },
+    { "Id": 202, "Category": "문", "Mark": "D01", "Name": "침실문", "Level": "2F" },
+    { "Id": 203, "Category": "창", "Mark": "", "Name": "거실 창", "Level": "1F" },
+    { "Id": 204, "Category": "창", "Mark": "W02", "Name": "주방 창", "Level": "1F" }
+  ],
+  "Sheets": [
+    { "Id": 301, "Number": "A101", "Name": "1층 평면도", "ViewCount": 1, "ScheduleCount": 0, "IsPlaceholder": false },
+    { "Id": 302, "Number": "A201", "Name": "입면도", "ViewCount": 0, "ScheduleCount": 0, "IsPlaceholder": false },
+    { "Id": 303, "Number": "A601", "Name": "창호 일람표", "ViewCount": 0, "ScheduleCount": 1, "IsPlaceholder": false },
+    { "Id": 304, "Number": "A999", "Name": "예정 시트", "ViewCount": 0, "ScheduleCount": 0, "IsPlaceholder": true }
+  ]
+}

@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0-windows</TargetFramework><UseWPF>true</UseWPF><OutputType>Exe</OutputType></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/BimInspector.UI/BimInspector.UI.csproj" />
+    <None Include="../../samples/model-snapshot.json" Link="model-snapshot.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

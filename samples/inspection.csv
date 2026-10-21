@@ -1,0 +1,9 @@
+﻿규칙,분류,요소 ID,이름,검토 사항
+"ROOM_ZERO_AREA","실","102","주방","면적이 0인 실입니다. 경계와 배치를 확인하세요."
+"ROOM_UNPLACED","실","104","미배치 실","배치되지 않은 실입니다."
+"ROOM_DUPLICATE_NUMBER","실","103","침실","중복 실 번호: 201"
+"ROOM_DUPLICATE_NUMBER","실","104","미배치 실","중복 실 번호: 201"
+"COMPONENT_EMPTY_MARK","창","203","거실 창","Mark가 비어 있습니다."
+"COMPONENT_DUPLICATE_MARK","문","201","현관문","같은 분류 내 중복 Mark: D01"
+"COMPONENT_DUPLICATE_MARK","문","202","침실문","같은 분류 내 중복 Mark: D01"
+"SHEET_EMPTY","시트","302","A201 · 입면도","배치된 뷰와 일람표가 없습니다."

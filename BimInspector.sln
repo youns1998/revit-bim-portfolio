@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E5A6222D-598E-40F1-8DF0-6D6AB70EFFD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BimInspector.Core", "src\BimInspector.Core\BimInspector.Core.csproj", "{991E989A-A667-44F3-824A-A90DF558275E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BimInspector.UI", "src\BimInspector.UI\BimInspector.UI.csproj", "{26CD6DB6-B787-4CAF-87A6-14CA2C9C8775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BimInspector.Addin", "src\BimInspector.Addin\BimInspector.Addin.csproj", "{96185697-235B-4555-8723-B054B2C37B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BimInspector.Demo", "src\BimInspector.Demo\BimInspector.Demo.csproj", "{C4B96357-15A2-4DD3-9FF5-A06C293506D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{58ADD94D-7F5E-49C4-B358-3DB1EE5E10E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BimInspector.Checks", "tests\BimInspector.Checks\BimInspector.Checks.csproj", "{988E440D-02E1-4666-8DF2-C2E3671E6987}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{991E989A-A667-44F3-824A-A90DF558275E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991E989A-A667-44F3-824A-A90DF558275E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991E989A-A667-44F3-824A-A90DF558275E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991E989A-A667-44F3-824A-A90DF558275E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26CD6DB6-B787-4CAF-87A6-14CA2C9C8775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26CD6DB6-B787-4CAF-87A6-14CA2C9C8775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26CD6DB6-B787-4CAF-87A6-14CA2C9C8775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26CD6DB6-B787-4CAF-87A6-14CA2C9C8775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96185697-235B-4555-8723-B054B2C37B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96185697-235B-4555-8723-B054B2C37B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96185697-235B-4555-8723-B054B2C37B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96185697-235B-4555-8723-B054B2C37B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B96357-15A2-4DD3-9FF5-A06C293506D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B96357-15A2-4DD3-9FF5-A06C293506D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B96357-15A2-4DD3-9FF5-A06C293506D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B96357-15A2-4DD3-9FF5-A06C293506D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988E440D-02E1-4666-8DF2-C2E3671E6987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{988E440D-02E1-4666-8DF2-C2E3671E6987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{988E440D-02E1-4666-8DF2-C2E3671E6987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{988E440D-02E1-4666-8DF2-C2E3671E6987}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{991E989A-A667-44F3-824A-A90DF558275E} = {E5A6222D-598E-40F1-8DF0-6D6AB70EFFD0}
+		{26CD6DB6-B787-4CAF-87A6-14CA2C9C8775} = {E5A6222D-598E-40F1-8DF0-6D6AB70EFFD0}
+		{96185697-235B-4555-8723-B054B2C37B96} = {E5A6222D-598E-40F1-8DF0-6D6AB70EFFD0}
+		{C4B96357-15A2-4DD3-9FF5-A06C293506D9} = {E5A6222D-598E-40F1-8DF0-6D6AB70EFFD0}
+		{988E440D-02E1-4666-8DF2-C2E3671E6987} = {58ADD94D-7F5E-49C4-B358-3DB1EE5E10E8}
+	EndGlobalSection
+EndGlobal
