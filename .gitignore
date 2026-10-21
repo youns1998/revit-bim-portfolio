@@ -1,0 +1,27 @@
+# Revit numbered backups
+*.[0-9][0-9][0-9][0-9].rvt
+*.[0-9][0-9][0-9][0-9].rfa
+*.[0-9][0-9][0-9][0-9].rte
+*_backup/
+*.slog
+*.dmp
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+~$*
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+.vscode/
+.idea/
+.codex-preview/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
